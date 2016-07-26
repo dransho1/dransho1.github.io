@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/projectmain.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header class="major">
+					<h1>Projects</h1>
+					<p>Some cool things I've done</p>
+				</header>
+				<div class="container">
+					<ul class="actions">
+						<li><a href="#one" class="button">Face-Swapping</a></li>
+						<li><a href="#two" class="button">Speech Recognition</a></li>
+
+					</ul>
+					<ul class="actions">
+						<li><a href="#three" class="button">Light Organ</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main special">
+				<div class="container">
+					<!--<span class="image fit primary"><img src="images/home.jpg" alt="" /></span> -->
+					<div class="content">
+						<header class="major">
+							<h2>Face-Swapping in Real Time</h2>
+							<p>Computer Vision, Spring 2016<p>
+						</header>
+						<div><img src="images/dave2.png" height="253" width="450"/></div>
+						<p>Most recently, I worked with a partner to implement a facial swapping program in Python/OpenCV. Faces are detected using OpenCV's feature-based cascade classifiers, running on Viola-Jones facial recognition. We blended using Laplacian pyramid blending, blending low-frequency features over a large distance and high-frequency features over shorter distances. Our results were best when the images and video were well aligned and of similar depth. Thanks to <a href="http://www.swarthmore.edu/NatSci/mzucker1/index.html">Professor Zucker</a> for the help and direction :)</p>
+						<div><img src="images/blendedtrumphil.png" height="189" width="338/">
+							<p>In an extension, we added an optional eye-swapping feature with some interesting (and sometimes monstrous) results.
+							</p>
+							<img src="images/blended2.png" height="189" width="338/"></div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+<!-- Two -->
+			<section id="two" class="main special">
+				<div class="container">
+					<!--<span class="image fit primary"><img src="images/home.jpg" alt="" /></span> -->
+					<div class="content">
+						<header class="major">
+							<h2>Speech Recognition Using Fast Fourier Transform</h2>
+							<p>Digital Signal Processing, Spring 2016<p>
+						</header>
+						<div><img src = "images/freq_ex.jpg" height="336" width="448" />
+						</div>
+						<p>In DSP I worked with a partner to build a speech recognition program. We developed the program in MATLAB to be able to explore classifiers and the fast fourier transform. Our program distinguished between ‘yes’ and ‘no’ audio signals by training on a set of known y/n inputs. For each word, we evaluated the power spectral density of the FFT to represent the energy content of signal in the frequency domain. We then created a feature value based on the average power spectrum distinguishing y/n. This acted as a linear classifier between the two words. By comparing the PSD of unknown input to the known feature value, our program can predict if the unknown word is either 'yes' or 'no.' This type of technology forms the very basics of <a href = "https://www.google.com/patents/US5638487">automatic speech recognition</a>. <a href = "http://www.asee.org/public/conferences/8/papers/3836/view">Based on a project from the University of Portland</a>.
+						</p>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+<!-- Three -->
+			<section id="three" class="main special">
+				<div class="container">
+					<!--<span class="image fit primary"><img src="images/home.jpg" alt="" /></span> -->
+					<div class="content">
+						<header class="major">
+							<h2>LED Color Light Organ</h2>
+							<p>Electronic Circuit Applications, Fall 2015<p>
+						</header>
+						<div><iframe width="420" height="315" src="https://www.youtube.com/embed/MLqPV8O7ssU">
+							</iframe>
+						</div>
+						<p>For this project, my partner and I built an LED light organ that when music was being played, three sets of LEDs would react to three different frequency ranges, flashing to the beat of the music. In order to accomplish this we used three broadband band-pass filters where we set the frequency ranges using Sallen-Key topology, coupled with an analog signal microphone, peak detectors, and comparators to control the LEDs. We designed each stage of the circuit, and mounted the design on a breadboard.
+						</p>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
