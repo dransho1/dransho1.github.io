@@ -80,6 +80,10 @@ header .logo {
   overflow: hidden;
 }
 
+section .homepage{
+  background-color: #ecf0f1;
+}
+
 section .home-img {
   display: inline-block;
   vertical-align: middle;
@@ -107,7 +111,7 @@ h2 {
 
 body p {
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .contact {
