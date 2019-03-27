@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/dransho1/pen/JJxeXy.
+Personal website code -- created using Jekyll with GitHub pages.
 
- Personal website
+All thoughts are my own. Retweets are not endorsement. Open to apparel endorsements.
