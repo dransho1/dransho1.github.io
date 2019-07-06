@@ -94,6 +94,14 @@ img.logo {
     height: 25px;
 }
 
+img.arrow {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+
 hr {
     height: 1px;
     border-top: 1px;
