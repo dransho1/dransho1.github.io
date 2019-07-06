@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background:
+    background-color: #000000;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -21,7 +21,7 @@ footer ul li a:hover {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #ffffffff;
 }
 a:hover {
     text-decoration: underline;
@@ -29,15 +29,21 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ffffffff;
+    margin-top: 0;
 }
 h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ffffffff;
 }
 p {
     font-size: 1.5em;
+    font-weight: bold;
     line-height: 1.5em;
-    color: #333;
+    color: #ffffffff;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 0;
+    padding: 0;
 }
 form div {
     padding-bottom: 10px;
@@ -51,6 +57,8 @@ input {
     padding-bottom: 5px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1em;
+    background-color: #000000;
+    color: white;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -61,6 +69,8 @@ ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
     font-size: 1.5em;
+    color: #ffffffff;
+    font-weight: bold;
 }
 
 ul.posts {
@@ -70,4 +80,26 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+div.sb-lines {
+    margin-bottom: 20px;
+}
+img.sb {
+    width: 35px;
+    height: 35px;
+}
+
+img.logo {
+    width: 25px;
+    height: 25px;
+}
+
+hr {
+    height: 1px;
+    border-top: 1px;
+}
+
+nav ul li.home-exit{
+    background-color: red;
+
 }
