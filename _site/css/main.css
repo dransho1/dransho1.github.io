@@ -89,6 +89,26 @@ img.sb {
     height: 35px;
 }
 
+.hvr-float {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    /*vertical-align: middle;*/
+    -webkit-transform: perspective(0.5px) translateZ(0);
+    transform: perspective(0.5px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
 img.logo {
     width: 25px;
     height: 25px;
