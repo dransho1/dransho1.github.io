@@ -64,6 +64,7 @@ ul {
 ul {
     margin: 1px;
     padding-left: 0px;
+    margin-bottom: 20px;
 }
 
 ul li {
@@ -107,6 +108,7 @@ img.arrow {
     width: 25px;
     height: 25px;
     padding-left: 5px;
+    object-position: center bottom; 
 }
 
 hr.starter {
