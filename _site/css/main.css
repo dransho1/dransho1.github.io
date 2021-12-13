@@ -137,3 +137,7 @@ nav ul li.home-exit{
     background-color: red;
 
 }
+
+span.spamprotection {
+    display:none;
+}
