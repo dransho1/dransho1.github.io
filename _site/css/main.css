@@ -60,6 +60,12 @@ input {
     background-color: #000000;
     color: white;
 }
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
